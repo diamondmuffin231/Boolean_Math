@@ -1,0 +1,51 @@
+
+Annulment Law 
+
+	AND (⋅ or ∧)
+		A in series with open = “OPEN”
+
+			A . 0 = 0
+			A ∧ 0 = 0
+
+	OR (+ or ∨)
+		A in parallel with closed = “CLOSED”
+
+			A + 1 = 1
+			A ∨ 1 = 1
+
+
+---------------------------------------------
+
+Identity 
+
+	AND (⋅ or ∧)
+		A in series with closed = “A”
+			A . 1 = A
+			
+
+	OR (+ or ∨)
+		A in parallel with open = “A”
+			A + 0 = A
+			
+		
+-----------------------------------------------
+
+Idempotent 
+
+	AND (⋅ or ∧)
+		A in series with A = “A”
+			A . A = A
+			A ∧ A = A
+
+	OR (+ or ∨)
+		A in parallel with A = “A”
+			A + A = A
+			A ∨ A = A 
+	
+------------------------------------------------
+
+Complement 
+	
+	A + A = 1
+
+	A . A = 0
