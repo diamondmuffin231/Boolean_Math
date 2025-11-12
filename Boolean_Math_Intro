@@ -1,51 +1,117 @@
+Table of contents 
+	Annulment ✔
+	Identity ✔
+	Idempotent ✔
+	Complement ✔
+	Double Negation ✔
+	Associative 
+	Commutative
+	Distributive
+	Absorptive
+
+General 
+
+	Boolean Logic Operations  
+
+		Basic (fundamental) operations
+		
+			AND / / Logical multiplication 
+				⋅ or ∧
+			OR / Disjunction / Logical addition
+				+ or ∨
+			NOT / logical negation 
+				¬ or '
+
+		Derived Operations, which are built using combinations of 
+		the basic ones. NAND and NOT are called Universal Gates, 		because any Boolean function can be built using only one 		of them.
+
+			NAND / Not AND 
+				¬(A ∧ B)
+			NOR / Not OR 
+				¬(A ∨ B)
+			XOR / Exclusive OR
+				⊕ or A ⊕ B
+			XNOR / Exclusive NOR
+				¬(A ⊕ B)
+
+--------------------
 
 Annulment Law 
 
-	AND (⋅ or ∧)
+	AND 
 		A in series with open = “OPEN”
 
 			A . 0 = 0
 			A ∧ 0 = 0
 
-	OR (+ or ∨)
+	OR 
 		A in parallel with closed = “CLOSED”
 
 			A + 1 = 1
 			A ∨ 1 = 1
 
-
 ---------------------------------------------
 
-Identity 
+Identity Law 
 
-	AND (⋅ or ∧)
+	AND 
 		A in series with closed = “A”
 			A . 1 = A
 			
 
-	OR (+ or ∨)
+	OR 
 		A in parallel with open = “A”
 			A + 0 = A
 			
-		
 -----------------------------------------------
 
-Idempotent 
+Idempotent Law 
 
-	AND (⋅ or ∧)
+	AND 
 		A in series with A = “A”
 			A . A = A
 			A ∧ A = A
 
-	OR (+ or ∨)
+	OR 
 		A in parallel with A = “A”
 			A + A = A
 			A ∨ A = A 
 	
 ------------------------------------------------
 
-Complement 
-	
-	A + A = 1
+Complement Law 
 
-	A . A = 0
+	A ∨¬ A = 1
+	A ∧¬ A = 0
+	
+	A + A’ = 1
+	A . A’ = 0
+	
+-------------------------------------------------
+
+Double Negation
+	¬(¬A) = A
+
+--------------------------------------------------
+
+Associative
+
+(A ∨ B)
+
+--------------------------------------------------
+	
+Commutative
+
+--------------------------------------------------
+
+Distributive
+
+--------------------------------------------------
+
+Absorptive
+
+--------------------------------------------------
+
+
+
+
