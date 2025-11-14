@@ -1,4 +1,5 @@
-T
+
+
 
 Table of contents 
 
@@ -6,9 +7,9 @@ Table of contents
 		AND, OR, NOT, NAND, NOR, & XOR
 
 	Boolean Algebra Laws / Boolean Laws / Properties 
-		Annulment ✔
-		Identity ✔
-		Idempotent ✔
+		Annulment 
+		Identity 
+		Idempotent 
 		Complement 
 		Double Negation 
 		Associative 
@@ -121,11 +122,13 @@ Associative Law
 	
 Commutative Law
 
-	OR??
+	OR
 		A ∨ B = B ∨ A
+		A + B = B + A
 
-	AND??
+	AND
 		A ∧ B = B ∧ A
+		A ⋅ B = B ⋅ A
 
 --------------------------------------------------
 
@@ -133,6 +136,7 @@ Distributive Law
 
 	AND??
 		A ∧ (B ∨ C) = (A ∧ B) ∨ (A ∧ C)
+		
 
 	OR??
 		A ∨ (B ∧ C) = (A V B) ∧ (A V C)
@@ -148,12 +152,5 @@ Absorptive Law
 		A ∧ (A V B) = A
 
 --------------------------------------------------
-
-
-
-
-
-
-
 
 
