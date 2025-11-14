@@ -1,19 +1,27 @@
+T
+
 Table of contents 
-	Annulment ✔
-	Identity ✔
-	Idempotent ✔
-	Complement ✔
-	Double Negation ✔
-	Associative 
-	Commutative
-	Distributive
-	Absorptive
+
+	Boolean Logic Operations / Logical Operators 
+		AND, OR, NOT, NAND, NOR, & XOR
+
+	Boolean Algebra Laws / Boolean Laws / Properties 
+		Annulment ✔
+		Identity ✔
+		Idempotent ✔
+		Complement 
+		Double Negation 
+		Associative 
+		Commutative
+		Distributive
+		Absorptive
+
+******************************************************************
+******************************************************************
 
 General 
 
-	Boolean Logic Operations  
-
-		Basic (fundamental) operations
+	Boolean Logic Operations / Logical Operators 
 		
 			AND / / Logical multiplication 
 				⋅ or ∧
@@ -22,8 +30,8 @@ General
 			NOT / logical negation 
 				¬ or '
 
-		Derived Operations, which are built using combinations of 
-		the basic ones. NAND and NOT are called Universal Gates, 		because any Boolean function can be built using only one 		of them.
+	Derived Operations, which are built using combinations of 
+	the basic ones. NAND and NOT are called Universal Gates, 		because any Boolean function can be built using only one 		of them.
 
 			NAND / Not AND 
 				¬(A ∧ B)
@@ -80,37 +88,71 @@ Idempotent Law
 ------------------------------------------------
 
 Complement Law 
-
-	A ∨¬ A = 1
-	A ∧¬ A = 0
 	
-	A + A’ = 1
-	A . A’ = 0
+	OR NOT
+		A ∨ ¬A = 1
+		A + A’ = 1
+
+	AND NOT
+		A ∧ ¬A = 0
+		A . A’ = 0
 	
 -------------------------------------------------
 
-Double Negation
-	¬(¬A) = A
+Double Negation Law
+
+	NOT NOT 
+		¬(¬A) = A
+
 
 --------------------------------------------------
 
-Associative
+Associative Law
 
-(A ∨ B)
+	OR
+		(A ∨ B) ∨ C = A ∨ (B ∨ C)
+		(A + B) + C = A + (B + C)
+		
+	AND 
+		(A ∧ B) ∧ C = A ∧ (B ∧ C)
+		(A ⋅ B) ⋅ C = A ⋅ (B ⋅ C)
 
 --------------------------------------------------
 	
-Commutative
+Commutative Law
+
+	OR??
+		A ∨ B = B ∨ A
+
+	AND??
+		A ∧ B = B ∧ A
 
 --------------------------------------------------
 
-Distributive
+Distributive Law 
+
+	AND??
+		A ∧ (B ∨ C) = (A ∧ B) ∨ (A ∧ C)
+
+	OR??
+		A ∨ (B ∧ C) = (A V B) ∧ (A V C)
 
 --------------------------------------------------
 
-Absorptive
+Absorptive Law 
+
+	OR??
+		A V (A ∧ B) = A
+
+	AND??
+		A ∧ (A V B) = A
 
 --------------------------------------------------
+
+
+
+
+
 
 
 
